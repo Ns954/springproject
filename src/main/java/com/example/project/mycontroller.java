@@ -25,7 +25,7 @@ public class mycontroller {
 	
 	@GetMapping("/azure")
 	public ResponseEntity<String> health(){
-		return ResponseEntity.ok("Succesfully running on Azure!!");
+		return ResponseEntity.ok(" Succesfully running on app services !!");
 	}
 	
 	@PostMapping("/employee")
